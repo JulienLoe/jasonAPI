@@ -8,9 +8,9 @@ const cors = require('cors')
 
 const mongoose = require('mongoose')
 
-const LOG = process.env.LOGINDB;
+// const LOG = process.env.LOGINDB;
 
-const url_db = `mongodb+srv://JulienLoe:${LOG}@cluster0.vlw1bje.mongodb.net/?retryWrites=true&w=majority`
+const url_db = `mongodb+srv://JulienLoe:Julien2132!@cluster0.vlw1bje.mongodb.net/?retryWrites=true&w=majority`
 
 mongoose.connect(url_db)
 
